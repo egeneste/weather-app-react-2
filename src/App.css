@@ -6,70 +6,77 @@
     width: 600px;
 } */
 * {
-    
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .App {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('https://photobest1.com/wp-content/uploads/2018/04/blue-sky-background-hd-1920x1080-03.jpg')
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://photobest1.com/wp-content/uploads/2018/04/blue-sky-background-hd-1920x1080-03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
 }
 
 .image {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
-    border-radius: 2em;
-    background-color: #CCD1E4;
-    min-width: 345px;
-    width: 350px;
-    height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 2em;
+  background-color: #ccd1e4;
+  min-width: 345px;
+  width: 350px;
+  height: 600px;
 }
 
-.card p{
-    font-size: 1.3em;
-    font-weight: 600;
-    color: #041562;
+.card p {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #041562;
 }
 
 .card span {
-    color: #000;
+  color: #000;
 }
 
 button {
-    padding: 0.5em 1.5em;
-    background-color: #041562;
-    font-size: 1.6em;
-    border-radius: 0.5em;
-    color: aliceblue;
+  padding: 0.5em 1.5em;
+  background-color: #041562;
+  font-size: 1.6em;
+  border-radius: 0.5em;
+  color: aliceblue;
 }
 
+.loading {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (min-width: 772px) {
-    .card {
-        width: 600px;
-    }
+  .card {
+    width: 600px;
+  }
 
-    .weather {
-        display: flex;
-        justify-content: space-between;
-        gap: 3em;
-    }
+  .weather {
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+  }
 
-    .image {
-        
-        width: 200px;
-    }
-    img {
-        width: 100%;
-    }
+  .image {
+    width: 200px;
+  }
+  img {
+    width: 100%;
+  }
 }

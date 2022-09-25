@@ -5,8 +5,8 @@ const Loading = () => {
     <div className="loading">
       <img
         className="loading-image"
-        src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/b6e0b072897469.5bf6e79950d23.gif"
-        alt="loading imag"
+        src="loading-img.gif"
+        alt="loading image"
       />
     </div>
   );
